@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.perfil {
+  display: 'flex';
+  align-items: 'center';
+  gap: '1rem';
+  margin: '20px 0';
+}
+
+.perfil img {
+  margin-left: 50px;
+}
+
+.perfil p {
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(73, 73, 73);
+  width: 60%;
+  font-size: 16px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+ul li {
+  text-align: start;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+button {
+  margin-left: 10px;
+  background-color: rgb(73, 73, 73);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+@media (max-width: 500px) {
+  input {
+    width: 50%;
+    font-size: 15px;
+  }
+}
